@@ -1,0 +1,45 @@
+{
+  "name": "decimalid",
+  "version": "1.0.0",
+  "description": "A simple decimal identifier generator.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test:unit": "jest",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danyaridiger/decimalid.git"
+  },
+  "keywords": [
+    "id",
+    "idetifier",
+    "number",
+    "decimal",
+    "short",
+    "numeric"
+  ],
+  "typings": "dist/types/index.d.ts",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/cjs.js",
+  "module": "dist/mjs.js",
+  "author": "Ridiger Daniil Dmitrievich <extendedmultiselect@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danyaridiger/decimalid/issues"
+  },
+  "homepage": "https://github.com/danyaridiger/decimalid#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "jest": "^29.7.0",
+    "rollup": "^4.24.3",
+    "rollup-plugin-dts": "^6.1.1"
+  }
+}
