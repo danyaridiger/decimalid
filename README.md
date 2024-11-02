@@ -13,7 +13,7 @@ Powered by a built-in JavaScript pseudo-random number generator.
 
 ### Installation with yarn
 
-``yarn install --production decimalid``
+``yarn add decimalid``
 
 ### Importing
 
